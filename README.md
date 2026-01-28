@@ -1,6 +1,6 @@
-![Подписался на FlashTanki — стал голдоловом недели](meme.png)
+![Переделка FlashTanki — на init-tank](init-tank_no_fone.png)
 
-*Подписался на FlashTanki — стал голдоловом недели!*
+*Бот discord отключен!*
 
 # Flash-Tanki
 
