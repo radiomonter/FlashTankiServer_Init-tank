@@ -1,0 +1,28 @@
+{
+  "id": "demon",
+  "index": 3,
+  "name": {
+    "en": "Demon",
+    "ru": "Демон"
+  },
+  "description": {
+    "en": "description",
+    "ru": "описание"
+  },
+
+  "baseItemId": 1500009,
+  "previewResourceId": 1500009,
+  "rank": 1,
+  "price": 1,
+  "properties": [    
+    { "property": "FIREBIRD_RESISTANCE", "value": 95 },
+    { "property": "FREEZE_RESISTANCE", "value": 95 },
+    { "property": "ISIS_RESISTANCE", "value": 95 },
+    { "property": "RAILGUN_RESISTANCE", "value": 95 },
+    { "property": "RICOCHET_RESISTANCE", "value": 95 },
+    { "property": "SHAFT_RESISTANCE", "value": 95 },
+    { "property": "SMOKY_RESISTANCE", "value": 95 },
+    { "property": "THUNDER_RESISTANCE", "value": 95 },
+    { "property": "TWINS_RESISTANCE", "value": 95 }
+  ]
+}

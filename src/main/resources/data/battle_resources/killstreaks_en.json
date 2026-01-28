@@ -1,0 +1,47 @@
+[
+  {
+    "messageToBoss": "%1 расправился с первой жертвой",
+    "messageToVictims": "%1 расправился с первой жертвой",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 выходит на охоту",
+    "messageToVictims": "%1 выходит на охоту",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 почувствовал превосходство",
+    "messageToVictims": "%1 почувствовал превосходство",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 в ярости",
+    "messageToVictims": "%1 в ярости",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 неудержим",
+    "messageToVictims": "%1 неудержим",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 в бешенстве",
+    "messageToVictims": "%1 в бешенстве",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 крушит врагов налево и направо",
+    "messageToVictims": "%1 крушит врагов налево и направо",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "%1 непобедим, уничтожь его скорее!",
+    "messageToVictims": "%1 непобедим, уничтожь его скорее!",
+	"soundResourceId": 1500012
+  },
+  {
+    "messageToBoss": "Никто не в силах остановить %1",
+    "messageToVictims": "Никто не в силах остановить %1",
+	"soundResourceId": 1500012
+  }
+]

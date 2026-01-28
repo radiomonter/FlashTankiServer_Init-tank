@@ -1,0 +1,62 @@
+{
+  "name": "map_hills",
+  "theme": "summer_night",
+  "id": 1296111,
+  "preview": 1233833,
+  "lowerDeathZone": 0.000,
+  "highDeathZone": 1600.000,
+  "visual": {
+    "angleX": -0.6000000238418579,
+    "angleZ": -0.800000011920929,
+    "lightColor": 4216936,
+    "shadowColor": 1382169,
+    "fogAlpha": 0.25,
+    "fogColor": 68116,
+    "farLimit": 10000,
+    "nearLimit": 5000,
+    "gravity": 1000,
+    "skyboxRevolutionSpeed": 0,
+    "ssaoColor": 3025184,
+    "dustAlpha": 0.75,
+    "dustDensity": 0.15000000596046448,
+    "dustFarDistance": 7000,
+    "dustNearDistance": 5000,
+    "dustParticle": "summer",
+    "dustSize": 200
+  },
+  "skybox": "Hills Night",
+  "resources": {
+    "proplibs": [
+      "Village Builds",
+      "Concrete Walls",
+      "Bush",
+      "Cliffs",
+      "Grass Tiles",
+      "Promotion",
+      "Small Bridge",
+      "Broken Walls",
+      "Broken Bottom",
+      "Broken Roof"
+    ],
+    "map": {
+      "id": 1296111,
+      "version": 1
+    }
+  },
+  "spawnPoints": [
+    {
+      "mode": "DM",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "bonuses": []
+}

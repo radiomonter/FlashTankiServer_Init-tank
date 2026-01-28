@@ -1,0 +1,9 @@
+{
+  "price": {
+    "rub": 29,
+	"usd": 0.33
+  },
+  "goldboxes": {
+    "base": 1
+  }
+}

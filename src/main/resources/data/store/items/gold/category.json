@@ -1,0 +1,11 @@
+{
+  "category_id": "4",
+  "title": {
+    "en": "Gold boxes",
+    "ru": "Золотые ящики"
+  },
+  "description": {
+    "en": "This item allows you to drop a gold crate on the battlefield. The dropped crate always contains 1000 crystals, including during holiday actions.",
+    "ru": "Этот предмет позволяет вам сбросить золотой ящик на поле боя. Сброшенный ящик всегда содержит 1000 кристаллов, в том числе во время празднична акций."
+  }
+}

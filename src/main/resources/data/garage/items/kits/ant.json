@@ -1,0 +1,52 @@
+{
+  "id": "ant",
+  "index": 137,
+  "name": "Комплект «Муравей»",
+  "description": "",
+  "baseItemId": 131017,
+  "previewResourceId": 131017,
+  "rank": 16,
+  "price": 126802,
+  "kit": {
+    "image": 542199,
+    "discount": 45,
+    "items": [
+      {
+        "id": "wasp_m2",
+        "count": 1
+      },
+      {
+        "id": "isida_m2",
+        "count": 1
+      },
+      {
+        "id": "digital_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

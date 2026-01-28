@@ -1,0 +1,9 @@
+{
+  "price": {
+    "rub": 430,
+	"usd": 999
+  },
+  "lootboxs": {
+    "base": 3
+  }
+}

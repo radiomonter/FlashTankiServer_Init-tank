@@ -1,0 +1,52 @@
+{
+  "id": "firewall",
+  "index": 127,
+  "name": "«Огненная стена»",
+  "description": "",
+  "baseItemId": 525234,
+  "previewResourceId": 525234,
+  "rank": 13,
+  "price": 117480,
+  "kit": {
+    "image": 643659,
+    "discount": 40,
+    "items": [
+      {
+        "id": "hunter_m2",
+        "count": 1
+      },
+      {
+        "id": "flamethrower_m2",
+        "count": 1
+      },
+      {
+        "id": "hohloma_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gold",
+  "index": 6,
+  "name": {
+    "en": "Gold box",
+    "ru": "Золотой ящик"
+  },
+  "description": {
+    "en": "A special stock that allows you to drop a standard gold box on the battlefield.",
+    "ru": "Специальный припас, позволяющий сбросить стандартный золотой ящик на поле боя."
+  },
+  "baseItemId": 1500017,
+  "previewResourceId": 1500017,
+  "rank": 11,
+  "price": 0,
+  "properties": []
+}

@@ -1,0 +1,46 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+  <persistence-unit name="flashtanki.server">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>flashtanki.server.client.User</class>
+    <class>flashtanki.server.client.UserEquipment</class>
+
+    <class>flashtanki.server.garage.ServerGarageUserItem</class>
+    <class>flashtanki.server.garage.ServerGarageUserItemWithModification</class>
+
+    <class>flashtanki.server.garage.ServerGarageUserItemWeapon</class>
+    <class>flashtanki.server.garage.ServerGarageUserItemHull</class>
+    <class>flashtanki.server.garage.ServerGarageUserItemPaint</class>
+	<class>flashtanki.server.garage.ServerGarageUserItemResistance</class>
+    <class>flashtanki.server.garage.ServerGarageUserItemSupply</class>
+    <class>flashtanki.server.garage.ServerGarageUserItemSubscription</class>
+
+    <class>flashtanki.server.quests.ServerDailyQuest</class>
+    <class>flashtanki.server.quests.ServerDailyQuestReward</class>
+
+    <class>flashtanki.server.quests.EarnScoreQuest</class>
+    <class>flashtanki.server.quests.EarnScoreOnMapQuest</class>
+    <class>flashtanki.server.quests.EarnScoreInModeQuest</class>
+    <class>flashtanki.server.quests.JoinBattleMapQuest</class>
+    <class>flashtanki.server.quests.KillEnemyQuest</class>
+    <class>flashtanki.server.quests.DeliverFlagQuest</class>
+    <class>flashtanki.server.quests.CapturePointQuest</class>
+    <class>flashtanki.server.quests.TakeBonusQuest</class>
+
+    <class>flashtanki.server.invite.Invite</class>
+
+    <properties>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+      <property name="hibernate.show_sql" value="false" />
+      <property name="hibernate.format_sql" value="true" />
+      <property name="hibernate.hbm2ddl.auto" value="update" />
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1/flashtanki"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>

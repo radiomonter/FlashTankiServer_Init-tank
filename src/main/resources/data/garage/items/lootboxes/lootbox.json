@@ -1,0 +1,17 @@
+{
+  "id": "lootbox",
+  "index": 0,
+  "name": {
+    "en": "Container",
+    "ru": "Контейнер"
+  },
+  "description": {
+    "en": "Open containers and get in-game items.Each container contains one random item. List of possible container contents:\n\u2022Crystals\n\u2022Supplies\n\u2022Premium account days\n\u2022Ordinary paints\n\u2022Unique paints",
+    "ru": "Открывайте контейнеры и получайте игровые товары.Каждый контейнер содержит один случайный предмет. Список возможного содержимого контейнеров:\n\u2022Кристаллы\n\u2022Припасы\n\u2022Дни премиум аккаунта\n\u2022Обычные краски\n\u2022Уникальные краски"
+  },
+  "baseItemId": 613847,
+  "previewResourceId": 613847,
+  "rank": 1,
+  "price": 0,
+  "properties": []
+}

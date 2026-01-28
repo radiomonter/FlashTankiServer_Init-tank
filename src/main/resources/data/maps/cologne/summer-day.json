@@ -1,0 +1,69 @@
+{
+  "name": "map_cologne",
+  "theme": "summer_day",
+  "id": 1226992,
+  "preview": 1366708,
+  "lowerDeathZone": -300.000,
+  "highDeathZone": 1298.000,
+  "visual": {
+    "angleX": -1,
+    "angleZ": -0.5,
+    "lightColor": 13090219,
+    "shadowColor": 5530735,
+    "fogAlpha": 0.25,
+    "fogColor": 14545407,
+    "farLimit": 10000,
+    "nearLimit": 5000,
+    "gravity": 1000,
+    "skyboxRevolutionSpeed": 0,
+    "ssaoColor": 3025184,
+    "dustAlpha": 0.75,
+    "dustDensity": 0.15000000596046448,
+    "dustFarDistance": 7000,
+    "dustNearDistance": 5000,
+    "dustParticle": "summer",
+    "dustSize": 200
+  },
+  "skybox": "Urban",
+  "resources": {
+    "proplibs": [
+      "NuBu 6",
+      "Fachwerk House 1",
+      "Fachwerk House 2",
+      "Bush",
+      "NuBu 9",
+      "Concrete Walls",
+      "Concrete Tiles",
+      "Grass Tiles",
+      "Slopes Rises",
+      "NuBu 2",
+      "Roadblock",
+      "NuBu 3",
+      "Fort",
+      "NuBu 5",
+      "Bridge Parts",
+      "NuBu 1",
+      "Promotion"
+    ],
+    "map": {
+      "id": 1226992,
+      "version": 1
+    }
+  },
+  "spawnPoints": [
+    {
+      "mode": "DM",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "bonuses": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "floralgc01",
+  "index": 2,
+  "name": {
+    "en": "Flora LGC-01",
+    "ru": "Флора LGC-01"
+  },
+  "description": {
+    "en": "description",
+    "ru": "описание"
+  },
+
+  "baseItemId": 1500008 ,
+  "previewResourceId": 1500008,
+  "rank": 1,
+  "price": 1,
+  "properties": [        
+     {
+        "property": "SMOKY_RESISTANCE",
+        "value": 10
+     }
+  ]
+}

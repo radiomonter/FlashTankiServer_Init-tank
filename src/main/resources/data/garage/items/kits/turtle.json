@@ -1,0 +1,52 @@
+{
+  "id": "turtle",
+  "index": 150,
+  "name": "Комплект «Град»",
+  "description": "",
+  "baseItemId": 672648,
+  "previewResourceId": 672648,
+  "rank": 21,
+  "price": 342000,
+  "kit": {
+    "image": 654396,
+    "discount": 40,
+    "items": [
+      {
+        "id": "hunter_m3",
+        "count": 1
+      },
+      {
+        "id": "smoky_m3",
+        "count": 1
+      },
+      {
+        "id": "irbis_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

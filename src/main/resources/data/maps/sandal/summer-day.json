@@ -1,0 +1,66 @@
+{
+  "name": "map_sandal",
+  "theme": "summer_day",
+  "id": 1267273,
+  "preview": 1353273,
+  "lowerDeathZone": -300.000,
+  "highDeathZone": 1800.000,
+  "visual": {
+    "angleX": -1,
+    "angleZ": -0.5,
+    "lightColor": 13090219,
+    "shadowColor": 5530735,
+    "fogAlpha": 0.25,
+    "fogColor": 14545407,
+    "farLimit": 10000,
+    "nearLimit": 5000,
+    "gravity": 1000,
+    "skyboxRevolutionSpeed": 0,
+    "ssaoColor": 3025184,
+    "dustAlpha": 0.75,
+    "dustDensity": 0.15000000596046448,
+    "dustFarDistance": 7000,
+    "dustNearDistance": 5000,
+    "dustParticle": "summer",
+    "dustSize": 200
+  },
+  "skybox": "Hills",
+  "resources": {
+    "proplibs": [
+      "Cliffs",
+      "Village Builds",
+      "Bush",
+      "NuBu 9",
+      "Concrete Walls",
+      "Concrete Tiles",
+      "Grass Tiles",
+      "Slopes Rises",
+      "Roadblock",
+      "NuBu 4",
+      "City Buildings",
+      "Small Bridge",
+      "City Builds",
+      "Promotion"
+    ],
+    "map": {
+      "id": 1267273,
+      "version": 1
+    }
+  },
+  "spawnPoints": [
+    {
+      "mode": "DM",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "bonuses": []
+}

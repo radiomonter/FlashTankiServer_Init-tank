@@ -1,0 +1,52 @@
+{
+  "id": "hooligan",
+  "index": 124,
+  "name": "Комплект «Хулиган»",
+  "description": "",
+  "baseItemId": 703411,
+  "previewResourceId": 703411,
+  "rank": 13,
+  "price": 81200,
+  "kit": {
+    "image": 248829,
+    "discount": 50,
+    "items": [
+      {
+        "id": "hornet_m1",
+        "count": 1
+      },
+      {
+        "id": "smoky_m2",
+        "count": 1
+      },
+      {
+        "id": "hohloma_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

@@ -1,0 +1,18 @@
+{
+  "animatedColoring": 1409532,
+  "baseItemId": 1409530,
+  "description": {
+    "en": "A rippling electrical current flows right beneath the transparent coating of this paint, making your tank look like a mobile plasma ball of destruction.",
+    "ru": "Прямо под тонким прозрачным покрытием этой краски струятся электрические разряды, которые превращают ваш танк в плазменный шар, сеющий массовые разрушения."
+  },
+  "id": "lightning_storm",
+  "index": -76,
+  "name": {
+    "en": "Lightning Storm",
+    "ru": "Гроза"
+  },
+  "previewResourceId": 1409530,
+  "price": 0,
+  "properties": [],
+  "rank": 30
+}

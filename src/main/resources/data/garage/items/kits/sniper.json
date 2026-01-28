@@ -1,0 +1,52 @@
+{
+  "id": "sniper",
+  "index": 171,
+  "name": "Комплект «Снайпер»",
+  "description": "",
+  "baseItemId": 289461,
+  "previewResourceId": 289461,
+  "rank": 27,
+  "price": 565500,
+  "kit": {
+    "image": 915892,
+    "discount": 35,
+    "items": [
+      {
+        "id": "viking_m3",
+        "count": 1
+      },
+      {
+        "id": "shaft_m3",
+        "count": 1
+      },
+      {
+        "id": "clay_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

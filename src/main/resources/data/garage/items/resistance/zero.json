@@ -1,0 +1,18 @@
+{
+  "id": "zero",
+  "index": 1,
+  "name": {
+    "en": "Zero",
+    "ru": "Зеро"
+  },
+  "description": {
+    "en": "The modules enhance the tank's defensive systems, reducing damage from certain weapons.\nHowever, this module is just a stub. To activate the protective systems, you need to use any other module.",
+    "ru": "Модули усиливают защитные системы танка, снижая урон от определённого вооружения.\nОднако этот модуль — только заглушка. Для включения защитных систем нужно использовать любой другой модуль."
+  },
+
+  "baseItemId": 1500007 ,
+  "previewResourceId": 1500007,
+  "rank": 1,
+  "price": 1,
+  "properties": []
+}

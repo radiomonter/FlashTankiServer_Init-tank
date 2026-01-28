@@ -1,0 +1,52 @@
+{
+  "id": "atlas",
+  "index": 132,
+  "name": "Комплект «Атлант»",
+  "description": "",
+  "baseItemId": 428601,
+  "previewResourceId": 428601,
+  "rank": 15,
+  "price": 109140,
+  "kit": {
+    "image": 416096,
+    "discount": 40,
+    "items": [
+      {
+        "id": "titan_m2",
+        "count": 1
+      },
+      {
+        "id": "smoky_m2",
+        "count": 1
+      },
+      {
+        "id": "loam_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

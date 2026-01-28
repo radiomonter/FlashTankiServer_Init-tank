@@ -1,0 +1,52 @@
+{
+  "id": "tornado",
+  "index": 139,
+  "name": "Комплект «Торнадо»",
+  "description": "",
+  "baseItemId": 33331,
+  "previewResourceId": 33331,
+  "rank": 17,
+  "price": 174480,
+  "kit": {
+    "image": 34073,
+    "discount": 40,
+    "items": [
+      {
+        "id": "hornet_m2",
+        "count": 1
+      },
+      {
+        "id": "railgun_m2",
+        "count": 1
+      },
+      {
+        "id": "spark_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

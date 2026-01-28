@@ -1,0 +1,18 @@
+{
+  "animatedColoring": 1000002,
+  "baseItemId": 1000001,
+  "description": {
+    "en": "If you gaze into this paint long enough, you can see a cat flying through space on a slice of pizza.",
+    "ru": "Если долго всматриваться в эту краску, можно увидеть кота, пролетающего на куске пиццы."
+  },
+  "id": "galaxy",
+  "index": -76,
+  "name": {
+    "en": "Galaxy",
+    "ru": "Галактика"
+  },
+  "previewResourceId": 1000001,
+  "price": 0,
+  "properties": [],
+  "rank": 30
+}

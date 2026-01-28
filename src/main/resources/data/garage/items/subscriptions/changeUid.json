@@ -1,0 +1,17 @@
+{
+  "id": "changeUid",
+  "index": -90,
+  "name": {
+    "en": "Rename",
+    "ru": "Переименование"
+  },
+  "description": {
+    "en": "null",
+    "ru": "null"
+  },
+  "baseItemId": 1500000,
+  "previewResourceId": 1500000,
+  "rank": 1,
+  "price": 1400,
+  "properties": []
+}

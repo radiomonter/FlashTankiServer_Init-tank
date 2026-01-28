@@ -1,0 +1,52 @@
+{
+  "id": "healer",
+  "index": 162,
+  "name": "Комплект «Целитель»",
+  "description": "",
+  "baseItemId": 834458,
+  "previewResourceId": 834458,
+  "rank": 25,
+  "price": 396000,
+  "kit": {
+    "image": 499689,
+    "discount": 40,
+    "items": [
+      {
+        "id": "hornet_m3",
+        "count": 1
+      },
+      {
+        "id": "isida_m3",
+        "count": 1
+      },
+      {
+        "id": "irbis_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

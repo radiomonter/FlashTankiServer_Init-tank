@@ -1,0 +1,56 @@
+{
+  "id": "commando",
+  "index": 109,
+  "name": "Комплект «Коммандо»",
+  "description": "",
+  "baseItemId": 620162,
+  "previewResourceId": 620162,
+  "rank": 3,
+  "price": 2325,
+  "kit": {
+    "image": 357931,
+    "discount": 50,
+    "items": [
+      {
+        "id": "viking_m0",
+        "count": 1
+      },
+      {
+        "id": "railgun_m0",
+        "count": 1
+      },
+      {
+        "id": "thunder_m0",
+        "count": 1
+      },
+      {
+        "id": "ricochet_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

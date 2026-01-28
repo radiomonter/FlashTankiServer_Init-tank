@@ -1,0 +1,52 @@
+{
+  "id": "gunslinger",
+  "index": 117,
+  "name": "Комплект «Стрелок»",
+  "description": "",
+  "baseItemId": 149964,
+  "previewResourceId": 149964,
+  "rank": 9,
+  "price": 45060,
+  "kit": {
+    "image": 239833,
+    "discount": 40,
+    "items": [
+      {
+        "id": "hornet_m1",
+        "count": 1
+      },
+      {
+        "id": "railgun_m1",
+        "count": 1
+      },
+      {
+        "id": "desert_m0",
+        "count": 1
+      }
+    ],
+	"gift": [
+      {
+        "id": "mine",
+        "count": 25
+      },
+      {
+        "id": "armor",
+        "count": 25
+      },
+      {
+        "id": "double_damage",
+        "count": 25
+      },
+      {
+        "id": "n2o",
+        "count": 25
+      },
+      {
+        "id": "health",
+        "count": 25
+      }
+    ],
+    "isTimeless": true
+  },
+  "properties": []
+}

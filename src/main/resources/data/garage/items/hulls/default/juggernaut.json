@@ -1,0 +1,62 @@
+{
+  "id": "juggernaut",
+  "index": 17,
+  "name": {
+    "en": "Juggernaut",
+    "ru": "Джаггернаут"
+  },
+  "description": {
+    "en": "He'll live",
+    "ru": "He'll live"
+  },
+  "baseItemId": 1500014,
+  "modifications": {
+    "0": {
+      "previewResourceId": 1500014,
+      "object3ds": 1500015,
+      "rank": 1,
+      "price": 0,
+      "maxHealth": 5882,
+      "properties": [
+        {
+          "property": "HULL_ARMOR",
+          "value": 5882
+        },
+        {
+          "property": "HULL_SPEED",
+          "value": 18.00
+        },
+        {
+          "property": "HULL_TURN_SPEED",
+          "value": 150.0
+        },
+        {
+          "property": "HULL_MASS",
+          "value": 5000
+        },
+        {
+          "property": "HULL_POWER",
+          "properties": [
+            {
+              "property": "HULL_ACCELERATION",
+              "value": 1000
+            }
+          ]
+        }
+      ],
+      "physics": {
+        "speed": 18.00,
+        "turnSpeed": 2.617994,
+        "acceleration": 16.00,
+        "reverseAcceleration": 23.00,
+        "sideAcceleration": 17.27,
+        "turnAcceleration": 2.617994,
+        "reverseTurnAcceleration": 6.283185,
+        "damping": 3000,
+        "mass": 5000,
+        "power": 1600
+      }
+    }
+  },
+  "skins":[]
+}
