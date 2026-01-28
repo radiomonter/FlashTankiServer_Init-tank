@@ -19,7 +19,7 @@
 ## Быстрый старт
 1. **Требования:**
    - Java 17+
-   - Gradle (или `gradlew`/`gradlew.bat`)
+   - gradle-8.7 (или `gradlew`/`gradlew.bat`)
    - Настроенная база данных (см. `flashtanki.sql`)
 2. **Сборка и запуск:**
     ```sh
