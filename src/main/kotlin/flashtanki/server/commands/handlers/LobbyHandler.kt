@@ -26,6 +26,7 @@ import flashtanki.server.exceptions.NoSuchProplibException
 import flashtanki.server.extensions.launchDelayed
 import flashtanki.server.quests.JoinBattleMapQuest
 import flashtanki.server.quests.questOf
+//import flashtanki.server.matchmaking.IMatchmakingService
 
 /*
 Battle exit:
@@ -53,6 +54,7 @@ class LobbyHandler : ICommandHandler, KoinComponent {
   private val server by inject<ISocketServer>()
   private val userRepository by inject<IUserRepository>()
   private val userSubscriptionManager by inject<IUserSubscriptionManager>()
+  //private val matchmakingService by inject<IMatchmakingService>()
 
   private val createBattleLimit = 3
 
@@ -282,7 +284,12 @@ class LobbyHandler : ICommandHandler, KoinComponent {
 
   @CommandHandler(CommandName.StartMatchmaking)
   suspend fun startMatchmaking(socket: UserSocket) {
+    //matchmakingService.addToQueue(socket)
+  }
 
+  @CommandHandler(CommandName.StopMatchmaking)
+  suspend fun stopMatchmaking(socket: UserSocket) {
+    //matchmakingService.removeFromQueue(socket)
   }  
 
   @CommandHandler(CommandName.SwitchBattleSelect)
@@ -424,6 +431,7 @@ class LobbyHandler : ICommandHandler, KoinComponent {
     }
 
     // TODO(Assasans): Advanced map configuration
+	// Расширенная конфигурация карты
     val battle = Battle(
       coroutineContext,
       id = Battle.generateId(),
@@ -439,6 +447,7 @@ class LobbyHandler : ICommandHandler, KoinComponent {
     battle.properties[BattleProperty.ProBattle] = data.proBattle
 
     if(data.proBattle) { // PRO-battle options have undefined value if proBattle is false
+	// Параметры PRO-битвы имеют неопределенное значение, если proBattle имеет значение false.
       battle.properties[BattleProperty.RearmingEnabled] = data.rearmingEnabled
     }
 
@@ -499,6 +508,7 @@ class LobbyHandler : ICommandHandler, KoinComponent {
   @CommandHandler(CommandName.CheckBattleName)
   suspend fun checkBattleName(socket: UserSocket, name: String) {
     // Pass-through
+	// Сквозной
     Command(CommandName.SetCreateBattleName, name).send(socket)
   }
 
@@ -521,12 +531,14 @@ class LobbyHandler : ICommandHandler, KoinComponent {
     val subscription = userSubscriptionManager.getOrAdd(targetUser)
 
     // TODO(Assasans): Use StateFlow
+	// Используйте StateFlow
     Command(
       CommandName.NotifyUserOnline,
       NotifyUserOnlineData(username = targetUser.username, online = target != null).toJson()
     ).send(socket)
 
     // TODO(Assasans): Save Job
+	// Сохранить работу
     socket.coroutineScope.launch {
       subscription.rank.collect { rank ->
         Command(
@@ -537,6 +549,7 @@ class LobbyHandler : ICommandHandler, KoinComponent {
     }
 
     // TODO(Assasans): Maybe use StateFlow
+	// Возможно, используйте StateFlow
     target?.battlePlayer?.let { player ->
       val battle = player.battle
 

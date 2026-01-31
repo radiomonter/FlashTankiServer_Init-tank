@@ -147,12 +147,17 @@ class Battle(
   val bonusProcessor = BonusProcessor(this)
   val mineProcessor = MineProcessor(this)
   val fundProcessor = FundProcessor(this)
+  
+  val isSystemBattle: Boolean
+    get() = properties[BattleProperty.System]  //Часть 2. Добавляем удобный геттер в Battle
+
 
   var startTime: Instant? = Clock.System.now()
   var startedRestart: Boolean = false
   var restartEndTime: Instant = Clock.System.now()
 
-  // Remark: Original server sends negative value if battle has no time limit
+  // Remark: Original server sends negative value if battle has no time limit   
+  //Исходный сервер отправляет отрицательное значение, если битва не имеет ограничения по времени.
   val timeLeft: Duration?
     get() {
       val startTime = startTime ?: return null

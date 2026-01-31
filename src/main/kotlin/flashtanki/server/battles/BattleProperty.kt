@@ -25,6 +25,9 @@ class BattleProperty<T : Any> private constructor(val key: String, val type: KCl
     val privateBattle = BattleProperty("privateBattle", Boolean::class, false)
 
     val ProBattle = BattleProperty("proBattle", Boolean::class, false)
+	
+	val System = BattleProperty("system", Boolean::class, false)   //Часть 1. Добавляем флаг  в BattleProperty
+
 
     // TODO(Assasans): Use UserRank?
     val MinRank = BattleProperty("min_rank", Int::class, 1)

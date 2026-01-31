@@ -35,7 +35,7 @@ class Command {
     builder.append(category.key)
     builder.append(";")
 
-    // Send chat message requires special behaviour
+    // Для отправки сообщения в чате требуется особое поведение
     if(name == CommandName.SendChatMessageClient) {
       builder.append(args.joinToString(";"))
     } else {
@@ -48,7 +48,7 @@ class Command {
 
     builder.append(Delimiter.decodeToString())
 
-    // println("Write command: $builder")
+    // println("Команда записи: $builder")
 
     return builder.toString()
   }

@@ -175,7 +175,7 @@ class UserSocket(
   suspend fun send(command: Command) {
     lock.withPermit {
       try {
-        output.writeFully(command.serialize().toByteArray())
+        output.writeFully(command.serialize().toByteArray(Charsets.UTF_8))
       } catch(exception: IOException) {
         logger.warn(exception) { "$this thrown an exception" }
         deactivate()

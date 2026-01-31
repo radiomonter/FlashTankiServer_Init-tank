@@ -242,6 +242,7 @@
         single<IUserSubscriptionManager> { UserSubscriptionManager() }
         single<IInviteService> { InviteService(enabled = false) }
         single<IInviteRepository> { InviteRepository() }
+       // single<IMatchmakingService> { MatchmakingService() }
         single {
           Moshi.Builder()
             .add(

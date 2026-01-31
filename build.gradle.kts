@@ -1,13 +1,13 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.6.10"
-    kotlin("plugin.jpa") version "1.6.10"
-    kotlin("plugin.allopen") version "1.6.10"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.5.31"
-    distribution
-    application
+  kotlin("jvm") version "1.6.10"
+  kotlin("plugin.jpa") version "1.6.10"
+  kotlin("plugin.allopen") version "1.6.10"
+  id("com.github.johnrengelman.shadow") version "8.1.1"
+  id("org.jetbrains.kotlin.plugin.serialization") version "1.5.31"
+  distribution
+  application
 }
 
 group = "flashtanki.server"

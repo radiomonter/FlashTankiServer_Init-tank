@@ -10,6 +10,13 @@ enum class CommandName(val category: CommandCategory, val key: String, val side:
   LoadResources(CommandCategory.System, "load_resources", CommandSide.Client),
   MainResourcesLoaded(CommandCategory.System, "main_resources_loaded", CommandSide.Client),
   DependenciesLoaded(CommandCategory.System, "dependencies_loaded", CommandSide.Server),
+  
+  // Добавить в enum CommandName:StartMatchmaking
+	StopMatchmaking(CommandCategory.Lobby, "stop_matchmaking", CommandSide.Server),
+	MatchmakingStarted(CommandCategory.Lobby, "matchmaking_started", CommandSide.Client),
+	MatchmakingStopped(CommandCategory.Lobby, "matchmaking_stopped", CommandSide.Client),
+	MatchmakingFound(CommandCategory.Lobby, "matchmaking_found", CommandSide.Client),
+	MatchmakingQueueUpdate(CommandCategory.Lobby, "matchmaking_queue_update", CommandSide.Client),
 
   /**
    * @argument {String} message - Alert message
