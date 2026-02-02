@@ -146,3 +146,6 @@ allOpen {
 application {
   mainClass.set("flashtanki.server.MainKt")
 }
+tasks.withType<JavaExec> {
+  jvmArgs("-Dfile.encoding=UTF-8")
+}

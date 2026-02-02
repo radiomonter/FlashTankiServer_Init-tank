@@ -37,6 +37,8 @@
   import flashtanki.server.lobby.chat.LobbyChatManager
   import flashtanki.server.lobby.clan.ClanRepository
   import flashtanki.server.lobby.clan.IClanRepository
+  import flashtanki.server.news.NewsRepository
+  import flashtanki.server.news.NewsLoader
   import flashtanki.server.quests.IQuestConverter
   import flashtanki.server.quests.IRandomQuestService
   import flashtanki.server.quests.QuestConverter
@@ -68,6 +70,9 @@
   import java.nio.file.Paths
   import kotlin.io.path.absolute
   import kotlin.reflect.KClass
+  import jakarta.persistence.EntityManager
+  import jakarta.persistence.EntityManagerFactory
+  import jakarta.persistence.Persistence
 
   suspend fun ByteReadChannel.readAvailable(): ByteArray {
     val data = ByteArrayOutputStream()
@@ -212,7 +217,7 @@
       logger.info { "Hello!" }
       logger.info { "Root path: ${Paths.get("").absolute()}" }
 
-      val module = module {
+      val appModule = module {
         single<IProcessNetworking> {
           when(val url = ipcUrl) {
             null -> NullNetworking()
@@ -243,6 +248,22 @@
         single<IInviteService> { InviteService(enabled = false) }
         single<IInviteRepository> { InviteRepository() }
        // single<IMatchmakingService> { MatchmakingService() }
+        single<EntityManagerFactory> {
+          Persistence.createEntityManagerFactory("flashtanki.server")
+        }
+
+        single<EntityManager> {
+          get<EntityManagerFactory>().createEntityManager()
+        }
+
+
+
+
+        // ✅ Добавляем новости
+		single { NewsRepository(get()) }
+		single { NewsLoader(get()) }
+
+
         single {
           Moshi.Builder()
             .add(
@@ -300,7 +321,7 @@
       startKoin {
         logger(SLF4JLogger(Level.ERROR))
 
-        modules(module)
+        modules(appModule)
       }
 
       val server = Server()

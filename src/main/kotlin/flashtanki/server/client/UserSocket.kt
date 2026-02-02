@@ -99,6 +99,9 @@ class UserSocket(
   private val inviteService by inject<IInviteService>()
   private val resourceConverter by inject<IResourceConverter>()
   private val json by inject<Moshi>()
+  private val newsLoader by inject<NewsLoader>()
+
+
 
   private val input: ByteReadChannel = socket.openReadChannel()
   private val output: ByteWriteChannel = socket.openWriteChannel(autoFlush = true)
@@ -479,7 +482,12 @@ class UserSocket(
         ).toJson()
     ).send(this)
     Command(CommandName.InitClan, "{\"loadingInServiceSpace\":true,\"restrictionTimeJoinClanInSec\":60,\"giveBonusesClan\":false,\"clan\":false,\"showBuyLicenseButton\":true,\"showOtherClan\":true,\"clanMember\":false, \"flags\":[{\"image\":952497,\"id\":1,\"lang\":\"ru\"}]}").send(this)
-    Command(CommandName.ShowNews, NewsLoader().loadNews(locale).toJson()).send(this)
+    
+	
+	Command(CommandName.ShowNews,newsLoader.loadNews(locale).toJson()).send(this)
+
+
+	
     Command(
       CommandName.InitFriendsList,
       InitFriendsListData(
@@ -818,7 +826,12 @@ suspend fun initBattleList() {
       CommandName.InitMessages,
       InitChatMessagesData(
         messages = lobbyChatManager.messages,
-		news = NewsLoader().loadNews(locale)
+		
+		
+		news = newsLoader.loadNews(locale)
+
+
+
       ).toJson(),
       InitChatSettings(
         selfName = user.username,

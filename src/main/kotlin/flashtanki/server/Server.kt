@@ -1008,6 +1008,7 @@ class Server : KoinComponent {
         ServerStartedMessage().send()
         logger.info("Server started...")
 
+
         launch {
           while (isActive) {
             logger.info("The server will be restarted in 24 hours...")
